@@ -1,16 +1,7 @@
 from sillywalk import *
+from mundos import mundo01
 
-# desenha o tabuleiro
-Mundo(largura=8, altura=8, ladrilho=40)
-Robot(1, 1)
-#barreira de peões
-x = random.randint(3, 7)
-minY = 2
-maxY = random.randint(minY+1,7)
-for y in range(minY, maxY+1):
-    Parede(x, y)
-
-# programa do aluno
+# MISSÃO: CONTORNAR A BARREIRA PELA ESQUERDA E VOLTAR PARA A BORDA DIREITA
 
 #andar a direita até achar o bloqueio na linha de baixo
 while vazio(abaixo):

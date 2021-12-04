@@ -1,5 +1,4 @@
 from sillywalk import *
+from mundos import mundo02
 
-# desenha o tabuleiro
-Mundo(largura=8, altura=8, ladrilho=40)
-Robot(1, 1)
+# MISSÃO: CONTORNAR A BARREIRA PELA ESQUERDA E VOLTAR PARA A BORDA DIREITA
