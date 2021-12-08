@@ -1,3 +1,12 @@
+"""
+    Mundo 01
+    Mundo tamanho 8x8
+    Robô começa em 1,1
+    Uma barreira vertical de altura aleatório com uma casa de largura
+    A barreira começa sempre na linha 2 e nunca passa da linha 7
+    A barreira pode estar na coluna 2 até a 7
+    (ou seja: a barreira é sempre transponível)
+"""
 from sillywalk import *
 from mundos import mundo01
 

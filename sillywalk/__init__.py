@@ -500,6 +500,10 @@ class Vader(Objeto):
         Objeto.__init__(self, 'vader.png', x, y)
         self.nome = "Anakin Skywalker"
 
+class Trooper(Objeto):
+    def __init__(self, x=1, y=1):
+        Objeto.__init__(self, 'trooper.png', x, y)
+
 
 class Domino(Objeto):
     def __init__(self, x=1, y=1, valor=None):

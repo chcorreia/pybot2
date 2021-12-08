@@ -1,5 +1,4 @@
 """
-    Mundo 01
     Mundo tamanho 8x8
     Robô começa em 1,1
     Uma barreira vertical de altura aleatório e largura aleatória
@@ -10,7 +9,7 @@
 from sillywalk import *
 
 # desenha o tabuleiro
-Mundo(largura=8, altura=8)
+Mundo(largura=8, altura=8, ladrilho=40)
 Robot(1, 1)
 
 #barreira
